@@ -54,10 +54,10 @@ padding: 10px 0px;
     background: #007bff;
     color: white;
     width: 40px;
-    height: 40px;
-    align-items: center;
-    width: 30px;
+    height: 40px;  
     justify-content: center;
+    align-items: center;
+    display: flex;
     border-radius: 50%;
 }
 
@@ -75,8 +75,9 @@ padding: 10px 0px;
     color: white;
     width: 40px;
     height: 40px;
-    text-align: center;
-    line-height: 40px;
+    align-items: center;
+    justify-content: center;
+   display: flex;
     border-radius: 50%;
 }
 
@@ -165,18 +166,17 @@ padding: 10px 0px;
 
 @media only screen and (max-width: 400px) {
     .wrapper {
-        width: 270px;
-    }
+        width: 270px;   
+     }
 
-    .contact .icon {
-        background: #007bff;
-        color: white;
+    .contact .icon {       
         width: 30px;
         height: 30px;
-        align-items: center;
-        width: 30px;
-        justify-content: center;
-        border-radius: 50%;
     }
-
+    .wrapper .box .item .icon {
+       
+        width: 30px;
+        height: 30px;
+    
+    }
 }
