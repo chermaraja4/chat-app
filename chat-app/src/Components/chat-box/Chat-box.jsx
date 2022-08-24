@@ -126,7 +126,7 @@ export default function ChartBox(props) {
                         </div>
                     </>
                 }
-                {console.log(contactPerson && !selectFriend)}
+               
                 {((contactPerson && !selectFriend)  || receiver) &&  
                 <div className="typing-area">
                     <div className="input-field">

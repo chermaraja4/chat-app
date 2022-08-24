@@ -10,8 +10,7 @@
     background: #007bff;
     color: white;
     line-height: 2.5;
-    border-radius: 5px 5px 0 0;
-   
+    border-radius: 5px 5px 0 0;   
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -166,6 +165,16 @@ padding: 10px 0px;
 @media only screen and (max-width: 400px) {
     .wrapper {
         width: 270px;
+    }
+
+    .contact .icon {
+        background: #007bff;
+        color: white;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
     }
 
 }
