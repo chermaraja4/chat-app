@@ -55,8 +55,9 @@ padding: 10px 0px;
     color: white;
     width: 40px;
     height: 40px;
-    text-align: center;
-    line-height: 40px;
+    align-items: center;
+    width: 30px;
+    justify-content: center;
     border-radius: 50%;
 }
 
@@ -172,8 +173,9 @@ padding: 10px 0px;
         color: white;
         width: 30px;
         height: 30px;
-        text-align: center;
-        line-height: 40px;
+        align-items: center;
+        width: 30px;
+        justify-content: center;
         border-radius: 50%;
     }
 
