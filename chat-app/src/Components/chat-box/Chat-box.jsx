@@ -8,7 +8,6 @@ export default function ChartBox(props) {
 
 
     const Messagesend = () => {
-
         const newMessage = {
             "message": inputValue,
             "sender": sender,
@@ -130,7 +129,10 @@ export default function ChartBox(props) {
                 {((contactPerson && !selectFriend)  || receiver) &&  
                 <div className="typing-area">
                     <div className="input-field">
-                        <input type="text" placeholder="Type your message" required value={inputValue} onChange={sendMessage} />
+                        <input type="text" placeholder="Type your message" required value={inputValue} onChange={sendMessage}   onKeyDown={(e) =>
+                                    e.key === "Enter" &&
+                                    Messagesend()
+                                  }/>
                         <button onClick={Messagesend}>Send</button>
                     </div>
                 </div>
